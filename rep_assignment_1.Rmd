@@ -1,0 +1,92 @@
+---
+title: 'Productivity and Reproducibility Assignment #1'
+author: "Sandra Emry"
+date: "23/10/2020"
+output: 
+  pdf_document:
+    toc: yes
+    toc_depth: 2
+toc: true
+bibliography: OSF.bib
+urlcolor: blue
+---
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(citr)
+```
+
+## Summary of the paper [@umanzorTestingRelativeImportance2019]: 
+
+Seaweeds are important foundation species in the intertidal zone, ameliorating stressful conditions for other algal species as well as the invertebrate community, thus increasing the species diversity and abundance of organisms. This paper tested the relative importance of two foundation species of algae in providing a refuge from abiotic stress at three different tidal heights, and its effects on the mobile invertebrate community. They did this by installing experimental plots consisting of one of two species, *Silvetia compressa* or *Stephanocystis dioica*, at low, mid and high intertidal heights, and at three different biomass levels, and subsequently measuring species richness and abundance, as well as the abiotic conditions temperature, irradiance and desiccation. As the authors had hypothesized, seaweed canopies of high biomass were more effective at mitigating harsh conditions and increasing abundance of mobile invertebrates, and for all algal biomass levels, the effect was greatest in the high intertidal zone. There was no effect of algal species in their ability to provide refuge, and there was no difference in species richness for any of the treatments. 
+
+## Journal's checklist for transparency and reproducibility 
+
+* Journal of Marine Biology and Ecology (JEMBE) does not provide a checklist for authors to follow. In their [author guidelines](https://www.elsevier.com/journals/journal-of-experimental-marine-biology-and-ecology/0022-0981?generatepdf=true), they do say they encourage authors to share the data, software, code, methods, and analysis related to the paper. 
+
+* They also encourage authors to submit a *Data in Brief* article that contains, and explains the data associated with the main publication. If authors choose to do so, a [template](https://www.elsevier.com/__data/assets/word_doc/0004/215779/Datainbrief_template.docx) is provided, and in it, authors must fill out several sections on the data such as how they were acquired, format of data, parameters of the data collection, etc.
+
+* JEMBE also has *MethodsX* articles that can be submitted alongside the primary publication, to detail the exact protocol and methods used in the research design. A [Word and LaTex template](https://www.elsevier.com/__data/assets/word_doc/0020/203528/MethodsX-Article-Template.docx) is also provided for this cosubmission. 
+
+* Upon submission of the manuscript, authors must make a *Data Statement*, indicating if the data is available, and if it isn't, you must give a reason as to why not. An example of a data statement is shown below, under the **research data** section in the article outline.  
+
+![](research_data.png)
+
+
+## A peer reviewer's checklist for transparency [@parkerEmpoweringPeerReviewers2018a]
+
+### Methods
+
+1. Were all sample sizes fully reported, including exact vlyes for all subsets of data, and for all statistical analyses?
+
+    Yes, n=3 for all treatments
+
+2. Are the methods reporteed in sufficient detail to allow another researcher to gather the same data and run the identical analyses?
+
+    For the most part yes. Although some terms like 'semi-controlled' environment, are sufficiently vague that reproducing the exact acclimation environment would be nearly impossible. It is also unclear how they treated tidal height in their statistical analysis, as they reported conducting a two-way ANOVA, with biomass and seaweed species as the two factors.
+
+### Analysis
+
+3. Are statistical results reported completely?
++ Are statistical results for each test reported in sufficient detail?
+    
+    Yes, p-values, test statistic and degrees of freedom are given for each test.
+    
++ Are results from all variables and from all models reported?
+  
+    Yes, mean and standard error are given in a table for all variable and covariates measured. 
+
+### Questions to check biases of reviewers and authors
+
+4. Were observers kept unaware of the experimental treatment imposed on the samples (e.g., organisms, plots) when recording observations or measurements so as to minimize unconscious bias? 
+
+    Not possible with this type of experimental design
+
+5. Did the authors explain how sample size was decided (e.g., based on a priori power analysis or logistical constraints), or when an experiment with pre-set sample sizes was terminated? If sample size or the end of the experiment was not decided prior to the initiation of the study, was
+there a decision rule for when to cease data collection? 
+
+    No, there was no rationale for sample size given. 
+
+6. Did the authors develop their analysis plan, including choices of variables, without looking at the data, for instance prior to gathering data or with a dummy data set? This is most easily determined by the existence of a pre-registered analysis plan. In the absence of pre-registration, a statement from the authors about the development of their analysis plan is still important. 
+
+    Yes, the authors chose their treatments and levels based on ecological theory developed in previous literature. 
+
+7. How suitable do you find the research methods without considering the outcome? Evaluate the design and methods regardless of whether or not there was a finding of “statistical significance”, or whether or not the results conform to a predicted pattern.
+
+    Their methods seem suitable, although no justification was given to explain the levels of biomass that were chosen. 
+
+8. Are the sample sizes large enough to justify the authors’ conclusions? If presenting significance tests, how much power would this study have to detect statistically significant weak, moderate, and strong effects? 
+
+    The sample size is small (n=3), so the ability of the methodology emplyed in this study to detect significance with weak effects is limited. However, the authors are testing ecological theory that isn't new, and has been demonstrated in this system for decades. Further, the seaweed species they use in this study are known to be foundation species, and exert strong effects on the rest of the intertidal community. For these reasons, I think a smaller sample size is justified. 
+
+9. What does the size of the estimated effect (e.g., slope, correlation coefficient, difference in means) suggest about its biological or practical importance, and what does uncertainty around that effect estimate suggest about the estimate’s precision? 
+
+    The statistical signficance of foundation species on invertebrate abundance seems to be largely driven by an increase in a single invertebrate species. Because of this, it is misleading to say that foundation species have a large impact on the entirety of the invertebrate community.
+
+10. How unexpected would you judge these results to be in light of prior empirically derived understanding?
+
+    These results are in line with other tests of the stress gradient hypothesis in the intertidal zone, and so are not surprising. 
+    
+    
+## References
+
