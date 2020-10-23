@@ -26,7 +26,7 @@ Seaweeds are important foundation species in the intertidal zone, ameliorating s
 
 * They also encourage authors to submit a *Data in Brief* article that contains, and explains the data associated with the main publication. If authors choose to do so, a [template](https://www.elsevier.com/__data/assets/word_doc/0004/215779/Datainbrief_template.docx) is provided, and in it, authors must fill out several sections on the data such as how they were acquired, format of data, parameters of the data collection, etc.
 
-* JEMBE also has *MethodsX* articles that can be submitted alongside the primary publication, to detail the exact protocol and methods used in the research design. A [Word and LaTex template](https://www.elsevier.com/__data/assets/word_doc/0020/203528/MethodsX-Article-Template.docx) is also provided for this cosubmission. 
+* JEMBE also has *MethodsX* articles that can be submitted alongside the primary publication, to detail the exact protocol and methods used in the research design. A [Word and LaTex template](https://www.journals.elsevier.com/methodsx) is also provided for this cosubmission. 
 
 * Upon submission of the manuscript, authors must make a *Data Statement*, indicating if the data is available, and if it isn't, you must give a reason as to why not. An example of a data statement is shown below, under the **research data** section in the article outline.  
 
@@ -87,6 +87,7 @@ there a decision rule for when to cease data collection?
 
     These results are in line with other tests of the stress gradient hypothesis in the intertidal zone, and so are not surprising. 
     
-    
+*To view the R Markdown document that created this PDF, click* [here](https://github.com/sandraemry/ReplicabilityAndProductivity/blob/main/rep_assignment_1.Rmd)
+
 ## References
 
